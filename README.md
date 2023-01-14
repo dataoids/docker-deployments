@@ -1,4 +1,5 @@
 # docker-deployments
+
 A GitHub repository containing various `docker-compose` and `Dockerfile` along with some other scripts for deploying various applications using Docker. The `docker-compose` files can be used to define and run multi-container applications, while the `Dockerfile` files can be used to define the environment and dependencies for individual containers. The repository can be used as a reference for developers to easily spin up development, test and production environments, with specific configurations for different use cases and requirements. Depending on the project, the repository might include the following files:
 
 * `docker-compose.yml`: The primary compose file which defines the services, networks, and volumes to be used in the deployment.
