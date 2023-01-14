@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        DJANGO_SUPERUSER_USERNAME: hello
+        DJANGO_SUPERUSER_EMAIL: hello@example.com
+        DJANGO_SUPERUSER_PASSWORD: world
+    command: gunicorn hello.wsgi:application --bind 0.0.0.0:8000
+    ports:
+      - 8000:8000
+    env_file:
+      - ./dev.env
