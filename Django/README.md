@@ -4,6 +4,6 @@ Django is a free and open-source web framework written in Python. It is designed
 
 ## Hello World
 
-We are using the Django app from the [hello-world](https://github.com/dataoids/hello-world.git) here to deploy it using Docker.
+We are using the Django app from the [hello-world](https://github.com/dataoids/hello-world) repo to deploy it using Docker.
 
-To deploy change directory to the Django folder and run: `docker compose up`
+To deploy it on docker change the directory to the Django folder and and simply run: `docker compose up`
